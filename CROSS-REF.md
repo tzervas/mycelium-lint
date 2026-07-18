@@ -6,10 +6,10 @@ content hash = git tree hash of the pinned rev.
 
 | Interface consumed | Repo | Pinned rev | Content hash | Notes |
 |---|---|---|---|---|
-| mycelium-cli-common | https://github.com/tzervas/mycelium-cli-common | `c673fafdd1bcecb713e3560689af6ab152033867` | tree `(tree hash: fetch dep rev locally to resolve)` | Rust API of `mycelium-cli-common` (see monorepo `docs/api-index/INDEX.md#mycelium-cli-common`) |
-| mycelium-doc | https://github.com/tzervas/mycelium-doc | `85c48010fb054dc80d8a86a854564c7cab5f7942` | tree `(tree hash: fetch dep rev locally to resolve)` | Rust API of `mycelium-doc` (see monorepo `docs/api-index/INDEX.md#mycelium-doc`) |
-| mycelium-l1 | https://github.com/tzervas/mycelium-l1 | `cd32a1ed7ab7d2be38c9c3047da7318d182b7a1c` | tree `(tree hash: fetch dep rev locally to resolve)` | Rust API of `mycelium-l1` (see monorepo `docs/api-index/INDEX.md#mycelium-l1`) |
-| mycelium-lsp | https://github.com/tzervas/mycelium-lsp | `7a3cfad66a3cd8a9002d885b70fd5291e6919723` | tree `(tree hash: fetch dep rev locally to resolve)` | Rust API of `mycelium-lsp` (see monorepo `docs/api-index/INDEX.md#mycelium-lsp`) |
+| mycelium-cli-common | https://github.com/tzervas/mycelium-cli-common | `c673fafdd1bcecb713e3560689af6ab152033867` | tree `c6fc7df3db94db6de08a7004729b1c37a7f5fc76` | Rust API of `mycelium-cli-common` (see monorepo `docs/api-index/INDEX.md#mycelium-cli-common`) |
+| mycelium-doc | https://github.com/tzervas/mycelium-doc | `22346d3c1e4bb17b14c4275e60efb04704c22319` | tree `(tree hash: fetch dep rev locally to resolve)` | Rust API of `mycelium-doc` (see monorepo `docs/api-index/INDEX.md#mycelium-doc`) |
+| mycelium-l1 | https://github.com/tzervas/mycelium-l1 | `2b92f54349eb0d4f67e32e983874df76908b9ab6` | tree `(tree hash: fetch dep rev locally to resolve)` | Rust API of `mycelium-l1` (see monorepo `docs/api-index/INDEX.md#mycelium-l1`) |
+| mycelium-lsp | https://github.com/tzervas/mycelium-lsp | `ba86f11ef1b33bdd091e897f6549fb87058445fc` | tree `(tree hash: fetch dep rev locally to resolve)` | Rust API of `mycelium-lsp` (see monorepo `docs/api-index/INDEX.md#mycelium-lsp`) |
 
 **Owning docs:** see monorepo `docs/Doc-Index.md`.
 **Source provenance:** extracted from `tzervas/mycelium` archive `aad96b7a…`; fixed by
