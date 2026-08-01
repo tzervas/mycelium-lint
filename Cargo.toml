@@ -20,7 +20,7 @@ mycelium-lsp = { git = "https://github.com/tzervas/mycelium-lsp", rev = "ba86f11
 mycelium-doc = { git = "https://github.com/tzervas/mycelium-doc", rev = "56fa736056b48195a05a7eeeacbb56b38e08f74e" }
 # M-643: the shared CLI substrate (stdin-or-file `read_source`, the `.myc` `walk_myc`). In-workspace
 # path dep, std-only — no new external crate enters the tree (KC-3).
-mycelium-cli-common = { git = "https://github.com/tzervas/mycelium-cli-common", rev = "c673fafdd1bcecb713e3560689af6ab152033867" }
+mycelium-cli-common = { git = "https://github.com/tzervas/mycelium-cli-common", rev = "13c4ae25357c45468731fc32a9ecbc946a9aac52" }
 
 [[bin]]
 name = "myc-lint"
