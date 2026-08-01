@@ -14,10 +14,10 @@ workspace = true
 [dependencies]
 # The M-141 lints + M-362 baseline (mycelium-lsp) and the parse/check/elaborate pipeline (mycelium-l1).
 mycelium-l1 = { git = "https://github.com/tzervas/mycelium-l1", rev = "4e4a29679d8e941eab86fad40f49c9947e68eefd" }
-mycelium-lsp = { git = "https://github.com/tzervas/mycelium-lsp", rev = "ff459b439afd0f8a2f9dd44e3d62ac4b6c0443c5" }
+mycelium-lsp = { git = "https://github.com/tzervas/mycelium-lsp", rev = "864d3ce3e5f50c57a996a494140ecb3816c648de" }
 # The M-363 doc-IR + the §4.1 doc quality-bar lint, now ACTIVE (Wave B): the check-name set lives there
 # as the single source of truth, re-exported here as `DOC_QUALITY_CHECKS`. KC-3 — both above the kernel.
-mycelium-doc = { git = "https://github.com/tzervas/mycelium-doc", rev = "1a4639ee309eb441dab637d12db9669e3bc12138" }
+mycelium-doc = { git = "https://github.com/tzervas/mycelium-doc", rev = "74a7d2729a40cfd0ac2560a29b9024cad1e84179" }
 # M-643: the shared CLI substrate (stdin-or-file `read_source`, the `.myc` `walk_myc`). In-workspace
 # path dep, std-only — no new external crate enters the tree (KC-3).
 mycelium-cli-common = { git = "https://github.com/tzervas/mycelium-cli-common", rev = "28e81b67a5d21bc3bdf8904a6ce36dd9ccb515b9" }
